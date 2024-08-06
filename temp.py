@@ -22,16 +22,16 @@ db = firebase.database()
 def upload_salaries():
     salaries_data = {
         "2024-06": {
-            "bruna": 5000,
-            "bruno": 2000
+            "bruna": 1000,
+            "bruno": 1500
         },
         "2024-07": {
-            "bruna": 5200,
-            "bruno": 2100
+            "bruna": 1200,
+            "bruno": 1000
         },
         "2024-08": {
-            "bruna": 5300,
-            "bruno": 2200
+            "bruna": 100000,
+            "bruno": 2000
         }
         # Adicione mais meses e salários conforme necessário
     }
