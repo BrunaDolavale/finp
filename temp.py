@@ -30,7 +30,7 @@ def upload_salaries():
             "bruno": 1000
         },
         "2024-08": {
-            "bruna": 100000,
+            "bruna": 200000,
             "bruno": 2000
         }
         # Adicione mais meses e salários conforme necessário
