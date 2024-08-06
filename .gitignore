@@ -1,0 +1,18 @@
+# Environments
+.env
+.venv
+venv/
+env/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Credential files
+.env
+
+# Logs
+*.log
+
+# Pyrebase credentials
+serviceAccountKey.json

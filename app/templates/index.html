@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Categorizador de Gastos</title>
+</head>
+<body>
+    <h1>Categorizador de Gastos</h1>
+    <form id="expense-form">
+        <label for="expense">Descrição do Gasto:</label>
+        <input type="text" id="expense" name="expense" required>
+        <br><br>
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="result"></p>
+
+    <script>
+        document.getElementById('expense-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const expense = document.getElementById('expense').value;
+
+            fetch('/categorize', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ expense })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    document.getElementById('result').innerText = 'Erro: ' + data.error;
+                } else {
+                    document.getElementById('result').innerText = 'Gasto categorizado e salvo com sucesso!';
+                }
+            })
+            .catch(error => {
+                document.getElementById('result').innerText = 'Ocorreu um erro!';
+                console.error('Error:', error);
+            });
+        });
+    </script>
+</body>
+</html>

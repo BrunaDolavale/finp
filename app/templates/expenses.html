@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lista de Gastos</title>
+</head>
+<body>
+    <h1>Lista de Gastos</h1>
+    <table border="1">
+        <tr>
+            <th>Item</th>
+            <th>Valor</th>
+            <th>Categoria</th>
+            <th>Tipo de Compartilhamento</th>
+            <th>Data</th>
+        </tr>
+        {% for key, expense in expenses.items() %}
+        <tr>
+            <td>{{ expense.item }}</td>
+            <td>{{ expense.value }}</td>
+            <td>{{ expense.category }}</td>
+            <td>{{ expense.sharing_type }}</td>
+            <td>{{ expense.date }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
