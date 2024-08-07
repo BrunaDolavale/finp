@@ -16,9 +16,6 @@ Este é um categorizador de gastos desenvolvido para casais, permitindo a catego
 - 🔥 Conta no Firebase com acesso ao Realtime Database
 - 🗝️ API Key do OpenAI GPT
 
-## 🛠️ Configuração
-
-1. Clone o repositório:
-   ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
+## 🚧 Em construção
+- View para edição do input do gasto
+- Dashboard de acompanhamento dos gastos
