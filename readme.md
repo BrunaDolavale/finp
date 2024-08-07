@@ -1,6 +1,6 @@
 # 💰 Finp - Categorizador de Gastos
 
-Este é um categorizador de gastos desenvolvido para casais, permitindo a categorização de despesas e a divisão de gastos de acordo com diferentes critérios de compartilhamento (Bruna, Bruno, Meio a Meio, Proporcional). O sistema também integra uma funcionalidade para calcular gastos proporcionais com base nos salários mensais dos cônjuges.
+Este é um categorizador de gastos desenvolvido para casais, permitindo a categorização de despesas e a divisão de gastos de acordo com diferentes critérios de compartilhamento. O sistema também integra uma funcionalidade para calcular gastos proporcionais com base nos salários mensais dos cônjuges.
 
 ## ✨ Funcionalidades
 
