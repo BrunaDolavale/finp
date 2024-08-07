@@ -19,3 +19,4 @@ Este é um categorizador de gastos desenvolvido para casais, permitindo a catego
 ## 🚧 Em construção
 - View para edição do input do gasto
 - Dashboard de acompanhamento dos gastos
+- Lógica para rateio do gasto, considerando a proporcionalidade de salários dos cônjuges (quando aplicável)
