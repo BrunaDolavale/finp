@@ -4,3 +4,4 @@ requests==2.27.1
 python-dotenv==0.20.0
 Werkzeug==2.0.3
 requests_toolbelt==0.9.1
+setuptools
