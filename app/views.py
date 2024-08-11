@@ -1,6 +1,6 @@
 from flask import render_template, request, jsonify
 from app import app, db
-from .main import categorize_expense
+from .categorize_expense import categorize_expense
 
 @app.route('/')
 def index():
